@@ -1,0 +1,123 @@
+<!DOCTYPE html> <!--this tag is used to tell that the document is of html format-->
+<html> <!--starting html tag used to start the code-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartoon Character </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--link tag here is used from the bootstrap framework of css so that we can easily access the predefined classes with a reliable code-->
+  <style>
+    body{
+      overflow-x: hidden;
+    }
+  </style>
+</head>
+
+<body> <!--this tag is used to start the main code of the html-->
+  <ul class="nav nav-pills"> <!--for creating navigation tool we always use undordered list tag-->
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      <!--anchor tag is used here to attach the link to our this html page  -->
+    </li>
+    <li class="nav-item dropdown">
+      <!--this class is used for creating dropdown button and is predefined class from bootstrap framework-->
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+        aria-expanded="false">Profiles</a> <!--this tag is used to create toggle button-->
+      <ul class="dropdown-menu"> <!--this will create dropdown menu-->
+        <li><a class="dropdown-item" href="Doremon.html">Doremon</a></li>
+        <li><a class="dropdown-item" href="Sinchan.html">Sinchan</a></li> <!--these are the dropdown menu sub lists-->
+        <li><a class="dropdown-item" href="Tom.html">Tom</a></li>
+        <li><a class="dropdown-item" href="Jerry.html">Jerry</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" aria-disabled="true">Logout</a> <!--this is another nav-item which is disabled-->
+    </li>
+  </ul>
+
+  <h1>Welcome to Home screen</h1> <!--this is the heading tag-->
+
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col-12 col-md-6  col-lg-3">
+      <div class="card h-100"><!--this class is used to create a card in html-->
+        <img src="IMAGES/HD-wallpaper-doraemon-anime.jpg" class="card-img-top h-50" alt="doremon image">
+        <div class="card-body">
+          <h5 class="card-title">Doremon</h5><!--This call is used to create a title for the card-->
+          <p class="card-text">Doraemon, a blue robotic cat from the 22nd century, is a beloved character in Japanese
+            manga and anime. With round eyes, a red nose, and a four-dimensional pocket in his collar, he's known for
+            futuristic gadgets. Kind, loyal, and intelligent, Doraemon helps his friend Nobita Nobi, often with
+            comical
+            mishaps. Despite his fear of mice and love for dorayaki (a sweet treat), Doraemon remains patient. Sent
+            back
+            in time by Nobita's great-great-grandson, he guides Nobita towards a better future using advanced
+            technology. Doraemon's friends include Nobita, Shizuka, Gian, and Suneo. His trademark gadgets like the
+            "Anywhere Door" and "Take-copter" lead to exciting adventures, teaching valuable lessons along the way. A
+            symbol of Japanese pop culture, Doraemon's enduring popularity transcends generations, making him a
+            cherished figure in animation.</p>
+            <a href="Doremon.html"><button class="btn btn-primary" type="button">check Doremon's profile</button></a>
+        <!--this class is used to create primary button with a color blue-->
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6  col-lg-3">
+      <div class="card h-100">
+        <img src="IMAGES/download.png" class="card-img-top h-50" alt="Sinchan image">
+        <div class="card-body">
+          <h5 class="card-title">Sinchan</h5>
+          <p class="card-text">Shinchan, from "Crayon Shin-chan," is a mischievous 5-year-old. With spiky hair, a red
+            shirt, and blue shorts, he's known for his cheeky antics and outrageous comments. He lives in Kasukabe,
+            Japan, attends Futaba Kindergarten, and has a baby sister, Himawari. Shinchan loves drawing crude
+            pictures,
+            watching "Action Mask," and going on absurd adventures with friends. His humor and catchphrases like "Buri
+            Buri Zaemon" are famous. The series, created by Yoshito Usui, combines humor, satire, and social
+            commentary,
+            making it popular across generations in Japan and beyond. Shinchan's irreverent personality and unique
+            charm
+            have made him an enduring character in the world of manga and anime.</p>
+          <!--this class is used to create the card text for the card-->
+          <a href="Sinchan.html"> <button class="btn btn-primary" type="button">check Sinchan's profile</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6  col-lg-3">
+      <div class="card h-100">
+        <img src="IMAGES/download.jpeg" class="card-img-top h-50" alt="Tom image">
+        <div class="card-body">
+          <h5 class="card-title">Tom</h5>
+          <p class="card-text">Tom is the iconic cat in the beloved "Tom and Jerry" animated series. He's a blue-gray
+            domestic cat with a white face, chest, and paws. Known for his short temper and exaggerated expressions,
+            he's always on a quest to catch Jerry, the clever mouse. Despite their rivalry, they occasionally team up
+            against common foes. Tom's mischievous antics and slapstick humor, created by William Hanna and Joseph
+            Barbera in 1940, have made "Tom and Jerry" a classic in animation history. Tom's character, with his
+            expressive face and relentless pursuit of Jerry, embodies timeless comedic entertainment that continues to
+            captivate audiences of all ages.</p>
+            <a href="Tom.html"> <button class="btn btn-primary" type="button">check Tom's profile</button></a>
+        <!--this class is used to create primary button with a color blue-->
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="IMAGES/images.png" class="card-img-top h-50" alt="jerry image">
+        <div class="card-body">
+          <h5 class="card-title">Jerry</h5>
+          <p class="card-text">Jerry is the iconic mouse from the classic "Tom and Jerry" animated series. He's small,
+            brown, and known for his wit and cunning. Despite his diminutive size, Jerry continually outsmarts Tom,
+            the
+            cat, in their comical rivalry. Created by William Hanna and Joseph Barbera in 1940, Jerry's clever pranks,
+            resourcefulness, and agility have made "Tom and Jerry" a beloved and enduring series in animation history.
+            Jerry's character represents the underdog who prevails through intelligence and quick thinking, showcasing
+            the power of wit over brawn. His character's timeless appeal continues to entertain audiences of all ages,
+            solidifying his status as one of the most iconic and beloved animated characters of all time.</p>
+            <a href="Jerry.html"> <button class="btn btn-primary" type="button">check Jerry's profile</button></a>
+        <!--this class is used to create primary button with a color blue-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"> </script>
+  <!--script tag is used for javascript but right now here it is optional to include or not-->
+</body>
+
+</html>
